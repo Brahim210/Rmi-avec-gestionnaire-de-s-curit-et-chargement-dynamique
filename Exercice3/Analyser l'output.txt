@@ -1,0 +1,13 @@
+1- Le client initialise le serveur.
+
+2- Le client appel la methode 'callMeBack' du serveur.
+
+3- Le serveur effectue son traitement, ici représenté par un simple Thread.sleep. (un sleep de time*1000ms, =5000ms dans ce cas, après avoir pris les paramètres du client)
+
+4- Pendant que le serveur est en pause, le client commence à afficher les entiers de 1 à 5 toutes les 2 secondes.
+Après 5 secondes (5000 ms) de sommeil, le serveur reprend la main pour effectuer son traitement restant (afficher un message).
+
+5-Le client affiche le reste des entiers après que le serveur ait terminé son traitement.
+
+
+
